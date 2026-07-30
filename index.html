@@ -67,40 +67,44 @@
 
     <div class="flex flex-col items-center  -z-10 inset-0 w-full
     bg-[linear-gradient(to_right,#73737320_1px,transparent_1px),linear-gradient(to_bottom,#73737320_1px,transparent_1px)]
-    bg-[size:20px_20px] h-[60vh] bg-[#f4fcf5] p-8">
-        <section id="FAQ">
-            <h1 class="text-3xl font-bold">FAQ</h1>
+    bg-[size:20px_20px] min-h-[60vh] bg-[#f4fcf5] p-8">
+        <section id="FAQ" class="w-full max-w-3xl [&summary]:text-xl [&_details]:rounded-xl [&_details]:p-2 [&_details]:m-2 [&_details]:rounded-lg [&_details]:mb-2 [&_summary]:text-2xl">
+            <h1 class="text-3xl font-bold mb-4">FAQ</h1>
             <details>
-                <summary class="text-2xl">Can I participate?</summary>
+                <summary>Can I participate?</summary>
                 <p>Anyone 18 or younger can participate!</p>
             </details>
             <details>
-                <summary class="text-2xl">What are the project requirements?</summary>
+                <summary>Can I use AI?</summary>
+                <p>AI can be used for research and learning, but your project must be no more than 10% AI-generated!</p>
+            </details>
+            <details>
+                <summary>What are the project requirements?</summary>
                 <p>Your project should:</p>
-                <ul>
+                <ul class="list-disc list-inside">
                     <li>be a calculator or calculator-related project</li>
                     <li>be open source and publicly available</li>
                     <li>have a README.md written by YOU!</li>
                     <li>have a BOM.csv with all parts required, quantity, purchase link and price</li>
                     <li>include all schematic, PCB (or wiring diagram), CAD, and firmware files</li>
-                    <li>be less than 30% AI-generated</li>
+                    <li>be less than 10% AI-generated</li>
                 </ul>
             </details>
             <details>
-                <summary class="text-2xl">How do I track time?</summary>
+                <summary>How do I track time?</summary>
                 <p>Use <a href="https://hackatime.hackclub.com">Hackatime</a> with any text
                     editor of your choice for coding, and <a href="https://lapse.hackclub.com">Lapse</a> for any other apps such as PCB software or CAD!</p>
             </details>
             <details>
-                <summary class="text-2xl">Can I submit my project to another Hack Club program?</summary>
+                <summary>Can I submit my project to another Hack Club program?</summary>
                 <p>Double-dipping isn't allowed, sorry!</p>
             </details>
             <details>
-                <summary class="text-2xl">When does Digit end?</summary>
+                <summary>When does Digit end?</summary>
                 <p>Digit runs from Aug 3 – Aug 17, 2026, but we may extend it or launch a v2!</p>
             </details>
             <details>
-                <summary class="text-2xl">I have more questions!</summary>
+                <summary>I have more questions!</summary>
                 <p>Ask a question in <span class="font-mono">#digit</span>, or send a DM to either  <span class="font-mono">@nirvaannn</span> or  <span class="font-mono">@Arcade W.</span>
                     on the Hack Club Slack</p>
             </details>
