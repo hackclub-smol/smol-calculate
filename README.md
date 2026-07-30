@@ -1,6 +1,7 @@
-# smol-template-sw
+# digit
 
-## Setting up your website checklist!
-- [ ] Put the name in everything
-- [ ] Put your name on the LICENSE file
-- [ ] Get your sponsor to spin it up on vercel 
+This repo contains the website for Hack Club Digit, a calculator-focused YSWS!
+
+You ship a cool calculator (hardware), we ship your hardware & exclusive stickers!
+
+The website is made with vanilla HTML and Tailwind CSS (imported via CDN).
